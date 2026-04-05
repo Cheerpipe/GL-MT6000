@@ -12,8 +12,8 @@ set wireless.radio0.vendor_vht='1'
 set wireless.default_radio0.ieee80211w='2'
 set wireless.default_radio0.noscan='1'
 set wireless.default_radio0.dtim_period='2'
-set wireless.default_radio0.beacon_int='100'
-set wireless.default_radio0.ieee80211n='1'
+# set wireless.default_radio0.beacon_int='100'
+# set wireless.default_radio0.ieee80211n='1'
 set wireless.default_radio0.ocv='0'
 
 # Wireless radio1 specific settings
@@ -24,10 +24,10 @@ set wireless.radio1.htmode='HE80'
 delete wireless.radio1.txpower
 set wireless.radio1.cell_density='2'
 
-set wireless.default_radio1.ieee80211w='2'
+# set wireless.default_radio1.ieee80211w='2'
 set wireless.default_radio1.noscan='1'
 set wireless.default_radio1.dtim_period='2'
-set wireless.default_radio1.beacon_int='100'
+# set wireless.default_radio1.beacon_int='100'
 set wireless.default_radio1.ocv='0'
 
 # Firewall settings
