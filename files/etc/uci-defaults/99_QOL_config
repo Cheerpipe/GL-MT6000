@@ -3,7 +3,7 @@ uci -q batch << EOI
 # Wireless radio0 specific settings
 set wireless.radio0.country='US'
 set wireless.radio0.band='2g'
-delete wireless.radio0.channel
+# delete wireless.radio0.channel
 set wireless.radio0.htmode='HE20'
 delete wireless.radio0.txpower
 set wireless.radio0.cell_density='2'
@@ -19,7 +19,7 @@ set wireless.default_radio0.ocv='0'
 # Wireless radio1 specific settings
 set wireless.radio1.country='US'
 set wireless.radio1.band='5g'
-delete wireless.radio1.channel
+# delete wireless.radio1.channel
 set wireless.radio1.htmode='HE80'
 delete wireless.radio1.txpower
 set wireless.radio1.cell_density='2'
