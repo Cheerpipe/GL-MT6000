@@ -1,12 +1,1 @@
-uci -q batch << EOI
 
-# Wireless radio0 specific settings
-set wireless.default_radio0.ocv='0'
-
-# Wireless radio1 specific settings
-set wireless.default_radio1.ocv='0'
-
-commit wireless
-commit firewall
-commit uhttpd
-EOI
